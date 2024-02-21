@@ -1,12 +1,12 @@
-import './feature.css';
+import "./feature.css";
 
 const Feature = ({ title, text }) => (
-  <div className="gpt4__features-container__feature">
-    <div className="gpt4__features-container__feature-title">
+  <div className="features-container__feature">
+    <div className="features-container__feature-title">
       <div />
       <h1>{title}</h1>
     </div>
-    <div className="gpt4__features-container_feature-text">
+    <div className="features-container_feature-text">
       <p>{text}</p>
     </div>
   </div>

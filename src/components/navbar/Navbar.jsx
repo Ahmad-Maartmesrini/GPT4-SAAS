@@ -1,6 +1,5 @@
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { useState } from "react";
-import logo from "../../logo.svg";
 import "./navbar.css";
 
 const links = () => {
@@ -10,7 +9,7 @@ const links = () => {
         <a href="#home">Home</a>
       </p>
       <p>
-        <a href="#wgpt3">What is GPT4?</a>
+        <a href="#wgpt4">What is GPT4?</a>
       </p>
       <p>
         <a href="#possibility">Open AI</a>
@@ -32,7 +31,7 @@ const Navbar = () => {
     <nav className="nav">
       <div className="navbar-links">
         <div className="navbar-links_logo">
-          <a href="home">
+          <a href="https://gpt4saas.vercel.app/">
             <h1>GPT4SaaS</h1>
           </a>
         </div>
