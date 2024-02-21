@@ -13,7 +13,11 @@
   align-items: center;
 }
 
-.navbar-links_logo {
+.navbar-links_logo h1 {
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-weight: 900;
+  color: #fff;
   margin-right: 2rem;
 }
 

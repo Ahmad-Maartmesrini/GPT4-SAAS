@@ -10,7 +10,7 @@ const links = () => {
         <a href="#home">Home</a>
       </p>
       <p>
-        <a href="#wgpt3">What is GPT3?</a>
+        <a href="#wgpt3">What is GPT4?</a>
       </p>
       <p>
         <a href="#possibility">Open AI</a>
@@ -32,7 +32,9 @@ const Navbar = () => {
     <nav className="nav">
       <div className="navbar-links">
         <div className="navbar-links_logo">
-          <img src={logo} />
+          <a href="home">
+            <h1>GPT4SaaS</h1>
+          </a>
         </div>
         <div className="navbar-links_container">{links()}</div>
       </div>

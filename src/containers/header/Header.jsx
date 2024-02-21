@@ -8,7 +8,7 @@ const Header = () => {
     <header className="header section__padding" id="home">
       <div className="header__content">
         <h1 className="gradient__text">
-          Let&apos;s Build Something amazing with GPT-3 OpenAI
+          Let&apos;s Build Something amazing with GPT-4 OpenAI
         </h1>
         <p>
           Yet bed any for travelling assistance indulgence unpleasing. Not
@@ -26,7 +26,7 @@ const Header = () => {
         </div>
       </div>
       <div className="header__img">
-        <img src={ai} alt="gpt4" />
+        <img src={ai} alt="ai" />
       </div>
     </header>
   );
