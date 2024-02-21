@@ -7,9 +7,14 @@
 
 .brand div {
   flex: 1;
-  margin: 1rem;
+  margin: 0.5rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.brand div img {
+  max-width: 100px;
+  min-width: 80px;
 }
