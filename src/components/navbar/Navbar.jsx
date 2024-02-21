@@ -29,7 +29,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="navbar">
+    <nav className="nav">
       <div className="navbar-links">
         <div className="navbar-links_logo">
           <img src={logo} />
@@ -64,7 +64,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
-    </div>
+    </nav>
   );
 };
 

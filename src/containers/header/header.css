@@ -1,0 +1,167 @@
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.header__content h1 {
+  font-family: var(--font-family);
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+}
+
+.header__content p {
+  font-family: var(--font-family);
+  margin-top: 2em;
+  color: #81afdd;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.header__content--input {
+  width: 100%;
+  margin: 2em 0 1em;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.header__content--input input {
+  font-family: var(--font-family);
+  flex: 2;
+  width: 100%;
+  min-height: 50px;
+  color: #fff;
+  padding: 0em 1em;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  background: var(--color-footer);
+  border: 2px solid var(--color-footer);
+  border: 0;
+  outline: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.header__content--input button {
+  flex: 0.6;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 0em 1em;
+  background: #ff4820;
+  border: 2px solid #ff4820;
+  outline: 0;
+  color: #fff;
+  cursor: pointer;
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.header__content--people {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+
+  margin-top: 2em;
+}
+
+.header__content--people img {
+  width: 181.79px;
+  height: 38px;
+}
+
+.header__content--people p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  margin: 0 0 0 1em;
+  padding-top: 5px;
+  font-family: var(--font-family);
+  text-align: center;
+}
+
+.header__img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__img img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header__img {
+    margin-top: 3em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header__content h1 {
+    font-size: 3em;
+    line-height: 55px;
+  }
+
+  .header__content p {
+    font-size: 1em;
+  }
+
+  .header__content--input button,
+  .header__content--input input {
+    font-size: 16px;
+  }
+
+  .header__content--people p {
+    margin: 0 0 0 0.8em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__content h1 {
+    font-size: 2.2em;
+    line-height: 44px;
+  }
+
+  .header__content p {
+    font-size: 0.8em;
+    line-height: 20px;
+  }
+
+  .header__content--input button,
+  .header__content--input input {
+    font-size: 10px;
+  }
+
+  .header__content--people {
+    flex-direction: column;
+  }
+
+  .header__content--people p {
+    margin: 0 0 0 0.8em;
+    font-size: 12px;
+  }
+}
